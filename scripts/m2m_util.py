@@ -29,7 +29,7 @@ def video_to_images(frames, video_path, out_path):
                 count += 1
         fs += 1
     cap.release()
-    return frames
+    return frames, count
 
 
 def images_to_video(frames, w, h, in_path, out_path):
